@@ -1,0 +1,51 @@
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Diretório do Expo
+.expo/
+.expo-shared/
+
+# Logs e caches
+*.log
+*.log.*
+*.cache
+.cache/
+tmp/
+dist/
+build/
+web-build/
+ios/build/
+android/app/build/
+
+# Arquivos específicos do Metro Bundler
+metro.config.js
+babel.config.js
+
+# Arquivos de ambiente
+.env*
+!.env.example
+
+# Pastas do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Expo e EAS (se estiver usando)
+.expo/*
+*.tflite
+*.caffemodel
+*.onnx
+eas.json
+
+# Configurações do editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Pods do iOS (caso use `expo prebuild`)
+ios/Pods/
+ios/.symlinks/
+ios/.workspace/
